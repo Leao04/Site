@@ -1,0 +1,256 @@
+html, body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.lt-grid-container{
+    
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.carta{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: rgb(128, 126, 112);
+}
+
+.cabe{
+background-color: rgb(21, 131, 76);
+grid-column-start: 1;
+grid-column-end: 7;
+grid-row-start: 1;
+grid-row-end: 2;
+ }
+
+.caixa1{
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.position {
+    margin-left: 440px;
+    grid-column-start: 6;
+    font-size: 40px;
+}
+
+.caixa2{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: black;
+    font-size: 18px;
+
+}
+
+.caixa2 a{
+    color: black;
+
+}
+
+.caixa2 a:link{
+    text-decoration: none;
+}
+
+.caixa2 a:hover{
+    font-weight: bolder;
+    background-color:#00FA9A;
+    opacity: 70%;
+    border: 3px solid black;
+    border-radius: 25px;
+    -webkit-transition: .5s all;   
+}
+
+.caixa3{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 18px;
+}
+
+.caixa3 a:hover{
+    font-weight: bolder;
+    background-color:#00FA9A;
+    opacity: 70%;
+    border: 3px solid black;
+    border-radius: 25px;
+    -webkit-transition: .5s all;   
+}
+
+.caixa3 a{
+    color: black;
+}
+
+.caixa3 a:link{
+    text-decoration: none;
+}
+
+.caixa4{
+    grid-row-start: 2;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    font-size: 18px;
+}
+.caixa4 a:hover{
+    font-weight: bolder;
+    background-color:#00FA9A;
+    opacity: 70%;
+    border: 3px solid black;
+    border-radius: 25px;
+    -webkit-transition: .5s all;   
+}
+
+.caixa4 a{
+    color: black;
+}
+
+.caixa4 a:link{
+    text-decoration: none;
+}
+
+.caixa5{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    font-size: 18px;
+}
+.caixa5 a:hover{
+    font-weight: bolder;
+    background-color:#00FA9A;
+    opacity: 70%;
+    border: 3px solid black;
+    border-radius: 25px;
+    -webkit-transition: .5s all;   
+}
+
+.caixa5 a{
+    color: black;
+}
+
+.caixa5 a:link{
+    text-decoration: none;
+}
+
+.cards{
+    grid-column-start: 1;
+}
+
+.card1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.card2{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    
+}
+
+.card4{
+    grid-row-start:1 ;
+    grid-column-start: 6;
+}
+
+.contato{
+    grid-row-start: 3;
+    font-size: 30px;
+    margin-top: -10px;
+    padding-left: 5px;
+}
+
+.instagram{
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+.facebook{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    padding-left: 50px;
+}
+
+.email{
+    grid-row-start: 5;
+    padding-left: 5px;
+}
+
+.endere{
+    grid-row-start: 6;
+    padding-left: 5px;
+}
+
+.pagamento{
+    grid-row-start: 3;
+    grid-column-start: 4;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.visa{
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.mastercard{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    padding-left: 50px;
+}
+
+.boleto{
+    grid-row-start: 4;
+    grid-column-start: 4;
+    padding-left: 100px;
+}
+
+.categorias{
+    grid-column-start: 6;
+    grid-row-start: 3;
+    font-size: 30px;
+}
+
+.gas{
+    grid-column-start: 6;
+    grid-row-start: 3;
+    padding-top: 40px;
+}
+
+.dilute{
+    grid-column-start: 6;
+    grid-row-start: 4;
+}
+
+.botijao{
+    grid-column-start: 6;
+    grid-row-start: 4;
+    padding-top: 30px;
+}
+
+.galao{
+    grid-column-start: 6;
+    grid-row-start: 5;
+}
+
+.final{
+    text-align: center;
+}
